@@ -2,6 +2,7 @@ minhas_notas = [8.5, 4.0, 10.0, 7.5, 6.0, 9.0]
 soma = 0
 cont = 0
 for nota in minhas_notas:
+    soma += nota
     if nota >= 7.0:
         cont += 1
 
